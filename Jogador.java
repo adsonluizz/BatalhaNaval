@@ -68,16 +68,15 @@ class Jogador {
 
         System.out.print("\n\nJOGADORES CADASTRADOS: ");
         System.out.println(listaJogadores.size());
-        System.out.println("ID \t Login \t\t Senha");
+        System.out.println("ID \t\t Login \t\t Senha");
 
         for (int i = 0; i < listaJogadores.size(); i++) {
             System.out.println(listaJogadores.get(i).idJogador +
-                    "\t" + listaJogadores.get(i).idJogador +
                     "\t\t" + listaJogadores.get(i).login +
                     "\t\t" + listaJogadores.get(i).senha);
         }
         System.out.println("\n\n");
-    }
+    }z
 
         public static boolean loginJogador() {
             Scanner scanner = new Scanner(System.in);
