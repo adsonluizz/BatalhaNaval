@@ -76,7 +76,7 @@ class Jogador {
                     "\t\t" + listaJogadores.get(i).senha);
         }
         System.out.println("\n\n");
-    }z
+    }
 
         public static boolean loginJogador() {
             Scanner scanner = new Scanner(System.in);
